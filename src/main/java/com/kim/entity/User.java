@@ -23,4 +23,5 @@ public class User {
     private Long id;
 
     private Age age;
+
 }
