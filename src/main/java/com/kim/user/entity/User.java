@@ -1,7 +1,7 @@
-package com.kim.entity;
+package com.kim.user.entity;
 
-import com.kim.hibernate.type.AgeType;
-import com.kim.obj.Age;
+import com.kim.user.hibernate.type.AgeType;
+import com.kim.user.obj.Age;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;

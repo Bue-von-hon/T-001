@@ -1,5 +1,6 @@
 package com.kim.obj;
 
+import com.kim.user.obj.Age;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;

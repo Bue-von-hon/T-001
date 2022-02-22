@@ -1,6 +1,6 @@
-package com.kim.hibernate.descritor;
+package com.kim.user.hibernate.descritor;
 
-import com.kim.obj.Age;
+import com.kim.user.obj.Age;
 import org.hibernate.type.descriptor.WrapperOptions;
 import org.hibernate.type.descriptor.java.AbstractTypeDescriptor;
 

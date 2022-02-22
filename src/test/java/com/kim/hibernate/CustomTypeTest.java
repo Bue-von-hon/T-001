@@ -1,13 +1,13 @@
 package com.kim.hibernate;
 
-import com.kim.entity.User;
-import com.kim.obj.Age;
-import com.kim.repository.UserRepository;
+import com.kim.user.entity.User;
+import com.kim.user.obj.Age;
+import com.kim.user.repository.UserRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.boot.test.context.SpringBootTest;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest

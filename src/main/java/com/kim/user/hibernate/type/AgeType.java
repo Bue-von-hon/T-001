@@ -1,7 +1,7 @@
-package com.kim.hibernate.type;
+package com.kim.user.hibernate.type;
 
-import com.kim.hibernate.descritor.AgeTypeDescriptor;
-import com.kim.obj.Age;
+import com.kim.user.hibernate.descritor.AgeTypeDescriptor;
+import com.kim.user.obj.Age;
 import org.hibernate.dialect.Dialect;
 import org.hibernate.type.AbstractSingleColumnStandardBasicType;
 import org.hibernate.type.DiscriminatorType;

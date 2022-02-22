@@ -1,4 +1,4 @@
-package com.kim.obj;
+package com.kim.user.obj;
 
 import lombok.EqualsAndHashCode;
 
