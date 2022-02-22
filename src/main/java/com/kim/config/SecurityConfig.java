@@ -9,7 +9,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests()
-                .antMatchers("/", "swagger-ui/")
+                .antMatchers("/", "swagger-ui/", "sign-up")
                 .permitAll();
     }
 }
