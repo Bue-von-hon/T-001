@@ -68,4 +68,10 @@ public class Account {
     public boolean isValidToken(String token) {
         return this.emailCheckToken.equals(token);
     }
+
+    public void completeSignup() {
+        this.emailVerified=true;
+        this.joinedAt=LocalDateTime.now();
+    }
+
 }
